@@ -2,7 +2,7 @@
 #include <HardwareSerial.h>
 
 // -----------------------------------------------------------------------------
-//  BNO055 UART demo for Raspberry Pi Pico W – 6軸IMUモード (磁気センサ除外)
+//  BNO055 UART demo for Spresense – 6軸IMUモード (磁気センサ除外)
 //  • UART0 GP0(TX) / GP1(RX) 115200 bps (Serial2)
 //  • CONFIG → IMU (6軸) の最小初期化 + 外部クリスタル + 単位設定
 //  • 拡張タイムアウト、リトライ付き書き込み (bnoWrite8) + 簡易読み取り (bnoRead)
